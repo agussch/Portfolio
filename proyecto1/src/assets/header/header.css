@@ -1,0 +1,47 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu-motion.css');
+*{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.h-header{
+    background-color: #fff;
+    height: auto;
+    padding: 25px 40px 25px 50px;
+    font-size: 1.2rem;
+    align-items: center;
+    display: flex;
+    font-family: Mulish,sans-serif;
+}
+.h-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+nav ul a {
+    color: #2d2e32;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .23s;
+}
+.h-ul{
+    display: flex;
+    gap: 2rem;
+}
+.gg-menu-motion{
+    display: none;
+}
+@media (max-width: 768px) {
+    .gg-menu-motion{
+        display: block;
+    }
+    .h-nav{
+        width: 85%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .h-ul .home , .about , .projects , .contact{
+        display: none;
+    }
+}
