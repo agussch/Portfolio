@@ -12,12 +12,21 @@
     align-items: center;
     display: flex;
     font-family: Mulish,sans-serif;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,.09)
 }
 .h-nav{
     display: flex;
     justify-content: space-between;
     margin: auto;
     width: 90%;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
 }
 nav ul a {
     color: #2d2e32;
@@ -28,16 +37,28 @@ nav ul a {
 .h-ul{
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
-.gg-menu-motion{
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+#check{
     display: none;
 }
-@media (max-width: 768px) {
-    .gg-menu-motion{
+
+@media (max-width: 900px) {
+    
+    .checkbtn{
         display: block;
     }
+    .h-header{
+        width: 100%;
+        justify-content: space-between;
+    }
     .h-nav{
-        width: 85%;
+        width: 70%;
         margin: auto;
         justify-content: space-between;
     }

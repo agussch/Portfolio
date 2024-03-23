@@ -20,7 +20,12 @@ const Cabeza = () => {
                 <li className='contact'>
                     <a href="contact">Contact</a>
                 </li>
-                <li><i class="gg-menu-motion"></i></li>
+                <li>
+                    <input type="checkbox" id='check'/>
+                    <label htmlFor="check" className='checkbtn'>
+                        <i class="gg-menu-motion"></i>
+                    </label>
+                </li>
             </ul>
         </nav>
     </div>
