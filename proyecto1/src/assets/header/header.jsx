@@ -15,15 +15,15 @@ const Cabeza = () => {
                     <a href="#about">About</a>
                 </li>
                 <li className='projects'>
-                    <a href="porjects">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li className='contact'>
-                    <a href="contact">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li>
                     <input type="checkbox" id='check'/>
                     <label htmlFor="check" className='checkbtn'>
-                        <i class="gg-menu-motion"></i>
+                        <i className="gg-menu-motion"></i>
                     </label>
                 </li>
             </ul>

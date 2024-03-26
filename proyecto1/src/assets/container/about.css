@@ -1,0 +1,37 @@
+.a-container-main{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.a-img img{
+    width: 450px;
+    height: 310px;
+    border-radius: 15px;
+    background-size: cover;
+}
+.a-description{
+    color: #767676;
+    font-family: Mulish,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.about h2{
+    color: #2d2e32;
+    font-size: 2.2rem;
+    line-height: 1.0;
+    margin-bottom: 0.8rem;
+}
+.blue{
+    color: #147efb;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
