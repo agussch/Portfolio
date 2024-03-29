@@ -1,10 +1,29 @@
 [
     {
       "key": "001",
-      "name": "forte",
+      "name": "Forte",
+      "description":"The application facilitates the search and posting of informal jobs. Users can log in, post their jobs to promote them, and search for available opportunities based on individual preferences.",
       "category": "Front-End and Back-End",
-      "image": "https://github.com/agussch/proyecto1/blob/main/proyecto1/data/forte.png",
+      "tech":{
+        "0":"Bootstrap",
+        "1":"PHP",
+        "2":"JavaScript",
+        "3":"MySQL"
+      },
+      "image": "./public/img/forte.png",
+      "url": "https://fortecorporation.com.ar"
+    },
+    {
+      "key": "002",
+      "name": "Pokedex",
+      "description":"The app collects data from the PokeAPI and displays it to users, providing information about various Pokémon characters, their abilities, stats, and more. Users can access and explore extensive details about Pokémon conveniently through the app's intuitive interface.",
+      "category": "Front-End and Back-End",
+      "tech":{
+        "0":"React",
+        "2":"JavaScript"
+      },
+      "image": "./public/img/pokedex.png",
       "url": "https://fortecorporation.com.ar"
     }
-  ]
+]
   

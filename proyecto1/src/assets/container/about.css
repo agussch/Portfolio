@@ -11,10 +11,10 @@
     gap: 4rem;
 }
 .a-img img{
-    width: 450px;
-    height: 310px;
+    width: 460px;
+    height: 332px;
     border-radius: 15px;
-    background-size: cover;
+    object-fit: cover;
 }
 .a-description{
     color: #767676;

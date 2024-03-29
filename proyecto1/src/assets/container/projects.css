@@ -1,0 +1,103 @@
+.p-container-main{
+    background-color: #f9f9f9;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.p-container{
+    padding-top: 1rem;
+    width: 70%;
+    margin: auto;
+}
+.card-projects{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    height: 320px;
+}
+.img-project{
+    display: flex;
+    align-items: center;
+}
+.img-project img{
+    width: 450px;
+    object-fit: cover;
+    height: 90%;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.img-project:hover img {
+    transform: scale(1.1);
+}
+.info-project{
+    gap: 0.7rem;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.tech ul{
+    flex-direction: row;
+    display: flex;
+    gap: 0.5rem;
+}
+.main-visit{
+    display: flex;
+    gap: 1.5rem;
+}
+.visit a{
+    color: blue;
+}
+.left .card-projects {
+    display: flex;
+}
+
+.left .img-project {
+    order: 1;
+}
+
+.left .info-project {
+    order: 2;
+}
+
+.right .card-projects {
+    display: flex;
+}
+
+.right .img-project {
+    order: 2;
+}
+
+.right .info-project {
+    order: 1;
+}
+.tech-item {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+}
+.bootstrap {
+    background-color: purple;
+    color: white;
+}
+.php {
+    background-color: blue;
+    color: white;
+}
+
+.javascript {
+    background-color: rgb(205, 205, 73);
+}
+
+.mysql {
+    background-color: black;
+    color: white;
+}
+
+.react {
+    background-color: lightblue;
+}
+

@@ -2,7 +2,7 @@ import React from 'react'
 import "./about.css"
 const About = () => {
   return (
-    <div className="a-container-main">
+    <section className="a-container-main" id='about'>
         <div className="a-container">
             <div className="a-img">
                 <img src="../../../public/img/about.jpg" alt="" />
@@ -20,7 +20,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 export default About
