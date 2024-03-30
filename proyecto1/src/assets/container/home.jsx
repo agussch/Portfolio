@@ -11,10 +11,9 @@ const Home = () => {
             <p>Hi, I'm Agustin Schanwarzkoff, a frontend development specialist with experience in backend. I'm passionate about crafting
               exceptional user experiences using modern technologies and frameworks for web design.</p>
             <span className='icons'>
-              <a href="https://github.com/agussch" className='git'><img src="./github.png" alt="" /></a>
-              <a href="https://www.linkedin.com/in/agustin-schanwarzkoff-001732279/" className='linkedin'><img src="./linkedin.png" alt="" /></a>
+              <a href="https://github.com/agussch" className='git'><img src="./img/github.png" alt="" /></a>
+              <a href="https://www.linkedin.com/in/agustin-schanwarzkoff-001732279/" className='linkedin'><img src="./img/linkedin.png" alt="" /></a>
             </span>
-            
           </div>
           <div className="h-foto"></div>
         </div>

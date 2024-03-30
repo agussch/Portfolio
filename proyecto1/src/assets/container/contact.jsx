@@ -25,7 +25,7 @@ const Contact = () => {
                         </span>
                         <div className="contact-info">
                             <h3>Mail</h3>
-                            <p><a href="https://mail.google.com/mail/u/3/#inbox?compose=new">agustinschkoff@gmail.com</a></p>
+                            <p><a href="mailto:agustinschkoff@gmail.com" target="_blank">agustinschkoff@gmail.com</a></p>
                         </div>
                     </div> 
                 </div>
