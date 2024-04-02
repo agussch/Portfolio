@@ -11,7 +11,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-icons">
                     <div className="box-icons">
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                             map
                         </span>
                         <div className="contact-info">
@@ -20,7 +20,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="box-icons">
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                             mail
                         </span>
                         <div className="contact-info">

@@ -7,7 +7,7 @@
 .h-header{
     background-color: #fff;
     height: auto;
-    padding: 25px 40px 25px 50px;
+    padding: 25px 40px 25px 0px;
     font-size: 1.2rem;
     align-items: center;
     display: flex;
@@ -45,16 +45,16 @@ nav ul a {
     display: none;
     font-size: 30px;
     cursor: pointer;
+    float: right;
 }
 #check{
     display: none;
 }
+.mobile-header{
+    display: none;
+}
 
 @media (max-width: 900px) {
-    
-    .checkbtn{
-        display: block;
-    }
     .h-header{
         width: 100%;
         justify-content: space-between;
@@ -63,8 +63,47 @@ nav ul a {
         width: 70%;
         margin: auto;
         justify-content: space-between;
+        align-items: center;
     }
     .h-ul .home , .about , .projects , .contact{
         display: none;
     }
+    .checkbtn {
+        display: block;
+    }
+    .mobile-header{
+        display: block;
+    }    
+    .h-nav .mobile-header {
+        position: fixed;
+        width: 100%;
+        height: 90%;
+        background-color: #fff;
+        left: -100%;
+        text-align: center;
+        top: 60px;
+        transition: all .5s;
+        z-index: 1;
+        line-height: 30px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .h-ul2{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .h-nav .mobile-header li {
+        display: block;
+    }
+    
+    .h-nav .mobile-header ul li a {
+        font-size: 20px;
+    }
+    
+    #check:checked ~ .mobile-header {
+        left: 0;
+    }
 }
+    
