@@ -17,7 +17,7 @@ const Projects = () => {
         };
         fetchProjectsData();
     }, []);
-
+ 
     return (
         <section className='p-container-main' id='projects'>
             <div className="p-container">
@@ -42,7 +42,7 @@ const Projects = () => {
                                         </ul>
                                     </div>
                                     <ul className='main-visit'>
-                                        <li>Code</li>
+                                        <li><a href={project.gitcode}></a>Code</li> 
                                         <li><p className='visit'><a href={project.url}>Live Demo</a></p></li>
                                     </ul>
                                 </div>

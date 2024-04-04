@@ -65,7 +65,7 @@ nav ul a {
         justify-content: space-between;
         align-items: center;
     }
-    .h-ul .home , .about , .projects , .contact{
+    .h-ul .home , .about-p , .projects , .contact{
         display: none;
     }
     .checkbtn {
@@ -77,33 +77,41 @@ nav ul a {
     .h-nav .mobile-header {
         position: fixed;
         width: 100%;
-        height: 90%;
+        height: 100%;
         background-color: #fff;
         left: -100%;
         text-align: center;
-        top: 60px;
+        top: 10px;
         transition: all .5s;
         z-index: 1;
         line-height: 30px;
         display: flex;
-        margin: auto;
-        justify-content: center;
     }
     .h-ul2{
         flex-direction: column;
         justify-content: center;
+        margin: auto;
     }
 
     .h-nav .mobile-header li {
         display: block;
     }
     
-    .h-nav .mobile-header ul li a {
+    .h-nav .mobile-header ul li label a {
         font-size: 20px;
     }
     
     #check:checked ~ .mobile-header {
         left: 0;
     }
+    #check:checked ~ .mobile-header .h-ul2 li label span a {
+        left: -100% !important;
+    }    
+    .checkbtn2{
+        position: relative;
+        left: 80%;
+        top: 20px;
+    }
+    
 }
     

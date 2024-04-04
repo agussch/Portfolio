@@ -11,6 +11,7 @@
         "3":"MySQL"
       },
       "image": "./public/img/forte.png",
+      "gitcode":"#",
       "url": "https://fortecorporation.com.ar"
     },
     {
@@ -23,6 +24,7 @@
         "2":"JavaScript"
       },
       "image": "./public/img/pokedex.png",
+      "gitcode":"#",
       "url": "https://fortecorporation.com.ar"
     }
 ]

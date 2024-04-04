@@ -1,11 +1,13 @@
 .p-container-main{
     background-color: #f9f9f9;
     width: 100%;
+    height: 100%;
     justify-content: center;
     margin: auto;
 }
 .p-container{
     padding-top: 1rem;
+    height: 100%;
     width: 70%;
     margin: auto;
 }
@@ -87,17 +89,47 @@
     background-color: blue;
     color: white;
 }
-
 .javascript {
     background-color: rgb(205, 205, 73);
 }
-
 .mysql {
     background-color: black;
     color: white;
 }
-
 .react {
     background-color: lightblue;
 }
+@media (max-width: 900px) {
+    .p-container{
+        width: 90%;
+    }
+    .card-projects{
+        padding:20px 0px 20px 0px;
+        gap: 0.5rem;
+        width: 100%; 
+        height: 100%;
+    }
+    .img-project{
+        width: 50%;
+    }
+    .img-project img{
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        max-height: 150px;
+    }
+    .img-project:hover img {
+        transform: scale(1.05);
+    }
+    .info-project{
+        width: 50%;
+    }
+    .info-project p{
+        font-size: 13px;
+        width: 100%;
+    }
 
+    .tech-item{
+        display: none;
+    }
+}

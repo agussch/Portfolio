@@ -18,7 +18,7 @@ const Contact = () => {
                             <h3>Location</h3>
                             <p>Argentina, Buenos Aires</p>
                         </div>
-                    </div>
+                    </div> 
                     <div className="box-icons">
                         <span className="material-symbols-outlined">
                             mail

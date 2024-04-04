@@ -19,7 +19,7 @@
 .contact-tittle h3 {
     color: #2d2e32;
     font-size: 1.7rem;
-}
+} 
 .contact-icons{
     flex-direction: row;
     display: flex;
@@ -53,4 +53,20 @@
 }
 .contact-info a:hover, .contact-info p:hover {
     color:#147efb;
+}
+@media (max-width: 900px) {
+    .contact-cont{
+        width: 85%;
+    }
+    .contact-tittle h3{
+        width: 90%;
+    }
+    .box-icons{
+        width: 100%;
+        gap: 0.5rem;
+    }
+    .contact-icons span{
+        width: 3.2rem;
+        height: 3.2rem;
+    }
 }

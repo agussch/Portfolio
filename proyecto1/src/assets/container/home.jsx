@@ -23,7 +23,7 @@ const Home = () => {
             <div className="logos">
               <ul>
                 <li><img src="../img/html.svg" alt=""/></li>
-                <li><img src="../img/css.svg" alt=""/></li>
+                <li><img src="../img/css.svg" alt=""/></li> 
                 <li><img src="../img//js.svg" alt=""/></li>
                 <li><img src="../img//react.svg" alt=""/></li>
                 <li><img src="../img//php.svg" alt=""/></li>

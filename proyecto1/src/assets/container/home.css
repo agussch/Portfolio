@@ -109,10 +109,10 @@
 }
 @media (max-width: 900px) {
     .h-container-main{
-        height: 60rem;
+        height: 70rem;
     }
     .h-container{
-        height: 45rem;
+        height: 52rem;
     }
     .hero-main{
         flex-direction: column-reverse;
