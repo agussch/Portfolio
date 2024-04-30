@@ -168,3 +168,11 @@
         height: 59rem;
     }
 }
+@media (max-width: 410px){
+    .h-container {
+        height: 63rem;
+    }
+    .h-container-main {
+        height: 77rem;
+    }
+}

@@ -14,7 +14,7 @@ const Projects = () => {
                         <li key={project.key} className={index % 2 === 0 ? 'left' : 'right'}>
                             <div className="card-projects">
                                 <div className="img-project">
-                                    <img src={project.image} alt="" />
+                                    <a href={project.url}><img src={project.image} alt="" /></a>
                                 </div>
                                 <div className="info-project">
                                     <h3>{project.name}</h3>
@@ -29,7 +29,7 @@ const Projects = () => {
                                         </ul>
                                     </div>
                                     <ul className='main-visit'>
-                                        <li><a href={project.gitcode}></a>Code</li> 
+                                        <li><a href={project.gitcode}>Code</a></li> 
                                         <li><p className='visit'><a href={project.url}>Live Demo</a></p></li>
                                     </ul>
                                 </div>

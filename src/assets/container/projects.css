@@ -24,7 +24,7 @@
 .img-project img{
     width: 450px;
     object-fit: cover;
-    height: 90%;
+    height: 250px;
     border-radius: 20px;
     transition: transform 0.3s ease;
 }
