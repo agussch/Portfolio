@@ -22,12 +22,12 @@ const Home = () => {
             <p>Tech </p>
             <div className="logos">
               <ul>
-                <li><img src="../img/html.svg" alt=""/></li>
-                <li><img src="../img/css.svg" alt=""/></li> 
-                <li><img src="../img//js.svg" alt=""/></li>
-                <li><img src="../img//react.svg" alt=""/></li>
-                <li><img src="../img//php.svg" alt=""/></li>
-                <li><img src="../img/git.svg" alt="" /></li>
+                <li><img src="https://agustinsch.dev/recursos/imagenes/html.svg" alt=""/></li>
+                <li><img src="https://agustinsch.dev/recursos/imagenes/css.svg" alt=""/></li> 
+                <li><img src="https://agustinsch.dev/recursos/imagenes/js.svg" alt=""/></li>
+                <li><img src="https://agustinsch.dev/recursos/imagenes/react.svg" alt=""/></li>
+                <li><img src="https://agustinsch.dev/recursos/imagenes/php.svg" alt=""/></li>
+                <li><img src="https://agustinsch.dev/recursos/imagenes/git.svg" alt="" /></li>
               </ul>
             </div>
         </div>

@@ -10,7 +10,7 @@
         "2":"JavaScript",
         "3":"MySQL"
       },
-      "image": "./public/img/forte.png",
+      "image": "https://agustinsch.dev/recursos/imagenes/forte.png",
       "gitcode":"#",
       "url": "https://fortecorporation.com.ar"
     },
@@ -23,9 +23,9 @@
         "0":"React",
         "2":"JavaScript"
       },
-      "image": "./public/img/pokedex.png",
-      "gitcode":"#",
-      "url": "https://fortecorporation.com.ar"
+      "image": "https://agustinsch.dev/recursos/imagenes/pokedex.png",
+      "gitcode":"https://github.com/agussch/pokedex",
+      "url": "https://agustinsch.dev/pokedex"
     }
 ]
   

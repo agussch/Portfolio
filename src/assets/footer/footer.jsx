@@ -7,8 +7,8 @@ const Footer = () => {
         <h3>Copyright 2024. All rights are reserverd</h3>
         <div className="footer-icons">
             <span className='icons'>
-              <a href="https://github.com/agussch" className='git'><img src="./img/github.png" alt="" /></a>
-              <a href="https://www.linkedin.com/in/agustin-schanwarzkoff-001732279/" className='linkedin'><img src="./img/linkedin.png" alt="" /></a>
+              <a href="https://github.com/agussch" className='git'><img src="https://agustinsch.dev/recursos/imagenes/github.png" alt="" /></a>
+              <a href="https://www.linkedin.com/in/agustin-schanwarzkoff-001732279/" className='linkedin'><img src="https://agustinsch.dev/recursos/imagenes/linkedin.png" alt="" /></a>
             </span>
         </div> 
     </footer>

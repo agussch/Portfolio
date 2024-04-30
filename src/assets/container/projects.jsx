@@ -1,29 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import "./projects.css";
+import data from "../../../data/projects.json"
 
 const Projects = () => {
-    const [projectsData, setProjectsData] = useState([]);
-
-    useEffect(() => {
-        const fetchProjectsData = async () => {
-            try {
-                const response = await fetch('../../../data/projects.json');
-                const data = await response.json();
-                console.log(data);
-                setProjectsData(data);
-            } catch (error) {
-                console.error('Error fetching projects data:', error);
-            }
-        };
-        fetchProjectsData();
-    }, []);
+    // const [projectsData, setProjectsData] = useState([]);
  
     return (
         <section className='p-container-main' id='projects'>
             <div className="p-container">
                 <p className='blue'>Portfolio</p>
                 <ul>
-                    {projectsData.map((project, index) => (
+                    {data.map((project, index) => (
                         <li key={project.key} className={index % 2 === 0 ? 'left' : 'right'}>
                             <div className="card-projects">
                                 <div className="img-project">

@@ -5,7 +5,7 @@ const About = () => {
     <section className="a-container-main" id='about'>
         <div className="a-container">
             <div className="a-img">
-                <img src="../../../public/img/about.jpg" alt="" />
+                <img src="https://agustinsch.dev/recursos/imagenes/about.webp" alt="" />
             </div>
             <div className="about"> 
                 <p className='blue'>About Me</p>

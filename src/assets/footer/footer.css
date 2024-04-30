@@ -19,3 +19,33 @@ footer h3{
         gap: 18%;
     }
 }
+@media (max-width: 500px) {
+    footer{
+        gap: 2%;
+    }
+    .footer-icons .icons {
+        gap: 10%;
+    }
+    .contact-icons {
+        gap: 1.5rem;
+        flex-direction: column;
+        display: flex;
+    }
+}
+@media (max-width: 450px) {
+    footer{
+        gap: 6.5%;
+    }
+    .footer-icons .icons {
+        gap: 10%;
+    }
+    footer h3 {
+        font-size: 0.9rem;
+        color: #2d2e32;
+    }
+    .contact-icons {
+        gap: 1.5rem;
+        flex-direction: column;
+        display: flex;
+    }
+}

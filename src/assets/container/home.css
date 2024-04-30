@@ -45,7 +45,7 @@
 .h-foto {
     -webkit-animation: morph 7s ease-in-out infinite;
     animation: morph 7s ease-in-out infinite;
-    background-image: url(../../../public/img/fotocur2.jpg);
+    background-image: url(https://agustinsch.dev/recursos/imagenes/fotocur2.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,5 +141,30 @@
         margin-right: 0;
         padding-bottom: 0.5rem;
         padding-right: 0;
+    }
+}
+@media (max-width: 500px) {
+    .logos ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0.5rem;
+        display: grid;
+    }
+    .h-container-main {
+        height: 72rem;
+    }
+    .h-container {
+        height: 56rem;
+    }
+    .a-container-main {
+        height: 27rem;
+        padding: 25px 0px 25px 0px;
+    }
+}
+@media (max-width: 450px) {
+    .h-container-main {
+        height: 74rem;
+    }
+    .h-container {
+        height: 59rem;
     }
 }
