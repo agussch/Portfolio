@@ -35,6 +35,11 @@
     margin-bottom: 0.2rem;
     text-transform: uppercase;
 }
+@media (max-width: 1100px){
+    .a-container{
+        width: 90%;
+    }
+}
 @media (max-width: 900px){
     .a-container-main{
         height: 26rem;
