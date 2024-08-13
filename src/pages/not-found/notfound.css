@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+.error{
+    display: flex;
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.e404{
+    color: dodgerblue;
+    font-size: 110pt;
+    font-weight: 700;
+}
+.e404-not{
+    font-size: 12pt;
+}
+
+@media (max-width: 900px) {
+    .error{
+        width: 100%;
+        height: 70vh;
+    }
+    .e404{
+        font-size: 40pt;
+    }
+    .e404-not{
+        font-size: 6pt;
+    }
+}
